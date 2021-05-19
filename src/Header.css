@@ -1,0 +1,23 @@
+.header {
+    display:flex;
+    flex: 0.6;
+    background-color: black;
+}
+
+.left__menu {
+    display:flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.header__title {
+    justify-content: space-evenly;
+    margin:10px;
+    font-size:30px;
+    color:white;
+}
+
+.header__title:hover {
+    color:rgb(235, 235, 235);
+    cursor: pointer;
+}
